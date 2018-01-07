@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`littlefinger happy path should work as described 1`] = `
+Object {
+  "dependencies": Object {
+    "ramda": "^0.25.0",
+    "superagent": "^3.8.2",
+  },
+  "devDependencies": Object {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.0.4",
+  },
+  "peerDependencies": Object {
+    "bluebird": "^3.5.1",
+  },
+}
+`;

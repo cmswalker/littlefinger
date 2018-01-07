@@ -1,0 +1,29 @@
+{
+  "name": "littlefinger",
+  "version": "1.0.0",
+  "description": "Extend and compose package.json by pointing at multiple remotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmswalker/package-json-compose.git"
+  },
+  "author": "cmswalker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmswalker/package-json-compose/issues"
+  },
+  "homepage": "https://github.com/cmswalker/package-json-compose#readme",
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.0.4"
+  }
+}
