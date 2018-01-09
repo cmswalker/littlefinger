@@ -1,6 +1,6 @@
 {
   "name": "littlefinger",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Extend and compose package.json by pointing at multiple remotes",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,22 @@
     "url": "https://github.com/cmswalker/package-json-compose/issues"
   },
   "homepage": "https://github.com/cmswalker/package-json-compose#readme",
+  "keywords": [
+    "dynamically",
+    "build",
+    "package.json",
+    "Makefile",
+    "Make",
+    "include",
+    "include package.json",
+    "extend",
+    "extend package.json",
+    "build",
+    "build package.json",
+    "compose",
+    "compose package.json",
+    "build-tools"
+  ],
   "dependencies": {
     "ramda": "^0.25.0",
     "superagent": "^3.8.2"
