@@ -1,12 +1,10 @@
 {
+  "name": "fixtures/remotes-eslint",
+  "version": "0.0.0",
+  "description": "Remote fixture for testing purposes",
   "devDependencies": {
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0"
-  },
-  "dependencies": {
-    "ramda": "^0.25.0",
-    "superagent": "^3.8.2"
-  },
-  "peerDependencies": {}
+  }
 }

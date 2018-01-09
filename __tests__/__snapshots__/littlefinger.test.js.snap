@@ -10,10 +10,7 @@ Object {
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "jest": "^22.0.4",
   },
-  "peerDependencies": Object {
-    "bluebird": "^3.5.1",
-  },
+  "peerDependencies": Object {},
 }
 `;

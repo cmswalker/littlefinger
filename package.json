@@ -1,6 +1,6 @@
 {
   "name": "littlefinger",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Extend and compose package.json by pointing at multiple remotes",
   "main": "index.js",
   "scripts": {

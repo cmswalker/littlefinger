@@ -1,21 +1,25 @@
 const littlefinger = require('../lib');
 
 const CWD = process.cwd();
-const remoteFixture = 'https://raw.githubusercontent.com/cmswalker/littlefinger/master/fixtures/remotes.json';
+
+const dependencies = {
+  eslint:
+    'https://raw.githubusercontent.com/cmswalker/littlefinger/master/fixtures/remotes-eslint.json',
+  functional:
+    'https://raw.githubusercontent.com/cmswalker/littlefinger/master/fixtures/remotes-functional.json',
+  http:
+    'https://raw.githubusercontent.com/cmswalker/littlefinger/master/fixtures/remotes-http.json'
+};
 
 const awaitBuild = config => littlefinger.build({ ...config });
 
 describe('littlefinger', () => {
 
   let types;
-  let dependencies;
   let output;
 
   beforeEach(() => {
     types = { dependencies: true, devDependencies: true, peerDependencies: true };
-    dependencies = {
-      'remote-fixture': remoteFixture,
-    };
     output = `${CWD}/__tests__/fixtures/remote-test.json`;
   });
 
@@ -27,7 +31,7 @@ describe('littlefinger', () => {
 
   describe('error path', () => {
     it('should require types', async () => {
-      // TODO: assert actual error messages
+      // TODO: assert actual error messages per step
       await expect(awaitBuild({ dependencies: {} })).rejects.toThrow();
     });
   });
