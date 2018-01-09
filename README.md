@@ -24,7 +24,7 @@ Create this
 }
 ```
 
-From [these](https://github.com/cmswalker/littlefinger/fixtures)
+From [these](https://github.com/cmswalker/littlefinger/tree/master/fixtures)
 
 With this setup
 
@@ -52,13 +52,13 @@ littlefinger.build({
 
 ### Usage
 
-[Examples](https://github.com/cmswalker/littlefinger/master/examples)
+[Examples](https://github.com/cmswalker/littlefinger/tree/master/examples)
 
 ```js
 const littlefinger = require('littlefinger');
 
 // Lets create a package.json that combines dependencies from these 3 remote urls
-// NOTE: you can view them here https://github.com/cmswalker/littlefinger/fixtures
+// NOTE: you can view them here https://github.com/cmswalker/littlefinger/tree/master/fixtures
 
 const dependencies = {
   eslint:
@@ -86,5 +86,5 @@ littlefinger.build({
   dependencies, output, types, blacklist, dryrun,
 }).catch(console.log);
 
-// The result can be found @ https://github.com/cmswalker/littlefinger/fixtures/simple.package.json
+// The result can be found @ https://github.com/cmswalker/littlefinger/blob/master/examples/simple.package.json
 ```
